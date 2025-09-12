@@ -1,0 +1,26 @@
+.ql-cursor .ql-cursor-flag {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.ql-editor {
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.ql-bubble .ql-tooltip {
+  display: none !important;
+}
+
+.ql-bubble .ql-toolbar {
+  display: none !important;
+}
+
+.ql-formats {
+  display: none !important;
+}
+
+.ql-container.ql-bubble {
+  border: none;
+}
