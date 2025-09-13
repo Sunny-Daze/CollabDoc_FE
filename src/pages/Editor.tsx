@@ -120,7 +120,7 @@ const Editor = () => {
       cursorData: {
         name: user?.username,
         range,
-        color: getRandomColor(),
+        color: getRandomColor(socket?.id),
       },
     });
     socket?.emit("doc:update", { docId, content: delta });
@@ -167,7 +167,7 @@ const Editor = () => {
       cursorData: {
         name: user?.username,
         range,
-        color: getRandomColor(),
+        color: getRandomColor(socket?.id),
       },
     });
     socket?.on("doc:init", handleDocInit);
@@ -210,7 +210,7 @@ const Editor = () => {
         cursorData: {
           range,
           name: user?.username,
-          color: getRandomColor(),
+          color: getRandomColor(socket?.id),
         },
       });
     };
