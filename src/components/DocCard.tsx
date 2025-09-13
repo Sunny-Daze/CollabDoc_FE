@@ -134,21 +134,21 @@ export default function DocCard({
                 <AvatarGroup>
                   <Avatar
                     sx={{
-                      bgcolor: getRandomColor(),
+                      bgcolor: getRandomColor(title),
                       height: "1.5rem",
                       width: "1.5rem",
                     }}
                   />
                   <Avatar
                     sx={{
-                      bgcolor: getRandomColor(),
+                      bgcolor: getRandomColor(owner_name),
                       height: "1.5rem",
                       width: "1.5rem",
                     }}
                   />
                   <Avatar
                     sx={{
-                      bgcolor: getRandomColor(),
+                      bgcolor: getRandomColor(created_at),
                       height: "1.5rem",
                       width: "1.5rem",
                     }}
