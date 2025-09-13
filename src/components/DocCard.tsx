@@ -148,7 +148,7 @@ export default function DocCard({
                   />
                   <Avatar
                     sx={{
-                      bgcolor: getRandomColor(created_at),
+                      bgcolor: getRandomColor(updated_at),
                       height: "1.5rem",
                       width: "1.5rem",
                     }}
